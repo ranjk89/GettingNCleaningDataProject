@@ -11,7 +11,10 @@ Steps invloved:
 
 * All of these data are combined using data.table package
 
-* Tidy data gets returned as result of the function call
+* Tidy data gets saved in "tiday_data.txt" in the working directory
 
 * You can find the tidy data in "tidy_data.txt"
 
+
+
+In addition to existing coloumns 2 new coloumns *subject* and *activiyt* are added to the clean dataset

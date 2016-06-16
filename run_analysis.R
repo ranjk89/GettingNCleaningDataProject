@@ -32,5 +32,5 @@ run_analysis <- function() {
   
   ##Extractring and saving tidy data
   tidy <- merged_dataset[, lapply(.SD, mean), by = c('subject', 'activity')]
-  tidy
+  write.table(tidy,file="tidy_data.txt", row.name=FALSE)
 }
